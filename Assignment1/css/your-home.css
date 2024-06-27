@@ -1,0 +1,240 @@
+* {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    background-color: #fff;
+}
+
+.top-nav-bar {
+    background-color: #1E426E;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.top-nav-bar > nav > ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav-bar > nav > ul > li {
+    list-style: none;
+    border-left: 1px solid white;
+    padding: 10px 15px;
+}
+
+.top-nav-bar > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-nav-bar > nav > ul > li:hover,
+.top-nav-bar > nav > ul > li > a:hover {
+    background-color: #789F4D;
+}
+
+.Top-Select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.Top-Select > h1 {
+    color: #1E426E;
+    margin-left: 20px;
+}
+
+.Top-Select > nav > ul {
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.Top-Select > nav > ul > li {
+    list-style: none;
+}
+
+.Top-Select > nav > ul > li > a {
+    color: #1E426E;
+    text-decoration: none;
+}
+
+.Top-Select > nav > ul > li > a:hover {
+    text-decoration: underline;
+    color: #789F4D;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.your-home-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.your-home-box {
+    background-color: #1E426E;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    text-align: center;
+}
+
+.your-home-box img {
+    width: 100%;
+    height: auto;
+}
+
+.your-home-box a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 0 0 10px 10px;
+}
+
+.your-home-box a:hover {
+    background-color: #E8F4F9;
+    color: #1E426E;
+}
+
+.Home-energy, .Home-energy2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.Home-energy-text, .info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Home-energy-text img, .info img {
+    flex: 1 1 300px;
+    max-width: 300px;
+}
+
+.info-box, .info-text2 {
+    flex: 2 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-box p, .info-text2 p {
+    margin: 10px 0;
+}
+
+.info-box a, .info-text2 a {
+    align-self: flex-start;
+    color: #1E426E;
+    text-decoration: none;
+    background-color: #E8F4F9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.info-box a:hover, .info-text2 a:hover {
+    background-color: #789F4D;
+    color: white;
+}
+
+.help-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.help-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.help-box1, .help-box2, .help-box3 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    text-align: center;
+}
+
+.help-box1 p, .help-box2 p, .help-box3 p {
+    margin: 10px 0;
+}
+
+.help-box1 a, .help-box2 a, .help-box3 a {
+    display: block;
+    color: #1E426E;
+    text-decoration: none;
+    background-color: #E8F4F9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.help-box1 a:hover, .help-box2 a:hover, .help-box3 a:hover {
+    background-color: #789F4D;
+    color: white;
+}
+
+footer {
+    background-color: #E8F4F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+footer > nav > ul {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer > nav > ul > li > a {
+    color: #1E426E;
+    text-decoration: none;
+}
+
+footer > nav > ul > li > a:hover {
+    color: #789F4D;
+}
